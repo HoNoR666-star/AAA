@@ -1,0 +1,1 @@
+import"./index-DmFpeDXb.js";function e(e=8e3){const t=new Map;return{check(n,o){const c=o||e,r=t.get(n)||0;return Date.now()-r>=c},touch(e){t.set(e,Date.now())},reset(e){void 0===e?t.clear():t.delete(e)}}}export{e as c};
