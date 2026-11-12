@@ -1,0 +1,1 @@
+import{g as e,l as r,m as a}from"./index-D8bc-lk9.js";function s(s){const t=(e("userInfo")||{}).username||e("username")||"";t&&r({url:a.getLoginUrl("/api/teacher_favorites/sync"),method:"POST",data:{teacher:t,items:Array.isArray(s)?s:[]},timeout:8e3})}export{s};
